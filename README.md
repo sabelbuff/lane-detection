@@ -1,9 +1,10 @@
 # laneDetection
 This project implements various computer vision algorithms to detect and show left and right lanes in the given video generated using front-facing car mounted camera.
 
-The video is converted into indivisual frames. Each frame is processed separately before being merged together to produce the output video containing detected lane line in red color.
+The video is converted into individual frames. Each frame is processed separately before being merged together to produce the output video containing detected lane line in red color.
 
 Example frame extracted from the video:
+
 ![alt text](https://raw.githubusercontent.com/sabelbuff/laneDetection/master/readme_images/image.png)
 
 # Pipeline to process each frame of the video is as follows:
@@ -26,7 +27,7 @@ Example frame extracted from the video:
 
 - Canny detection algorithm was applied to the grayscale image output the edges in the image.
 
-![alt text](https://raw.githubusercontent.com/sabelbuff/laneDetection/master/readme_images/image_canny.png)
+![alt text](https://raw.githubusercontent.com/sabelbuff/laneDetection/master/readme_images/image-canny.png)
 
 - Then region of interest was defined for the image because we are only interested in the lane part of the image.
 
